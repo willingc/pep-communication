@@ -1,7 +1,6 @@
 PEP: 9999
 Title: Survey of Communication Modes in the Development Community
-Author: Carol Willing <willingc@python.org>,
-        Pablo Salgado <>
+Author: Carol Willing <willingc@python.org>, Pablo Salgado <>
 Status: Draft
 Type: Informational
 Content-Type: text/x-rst
