@@ -22,6 +22,12 @@ What the PEP Does Cover
 
 - Current communication mediums both formally adopted ones and trial efforts
 - User personas
+- Historical evolution of Python Communications
+- Current Communication Mediums
+- Detailed look at different Communication Mediums
+- Information Types (Text, Visual, Audio / Video)
+- 
+
 
 Principles about Change
 =======================
@@ -38,9 +44,29 @@ Principles about Change
 Personas for Communication
 ==========================
 
-Historical Evolution of Python Communication
-============================================
+The following user personas identify the typical uses of communication
+tool:
 
+- Python users
+- Third party library or package maintainer
+- CPython contributor
+- CPython core developer
+
+Historical Evolution of Python Communication Mediums
+====================================================
+
+This list summarizes the history of Python core development
+communication mediums (ordered from oldest to most recent usage):
+
+- Mailing Lists / Usenet(?)
+- IRC
+- Documentation / wiki
+- Issue trackers
+- python.org website
+- Dev Guide
+- GitHub PR Discussion
+- Zulip
+- Discourse (discuss.python.org)
 
 Currently Used Communication Mediums
 ====================================
@@ -86,21 +112,38 @@ GitHub
 python.org
 ----------
 
-Information
-===========
+Information Types
+=================
+
+Communication mediums used for Python development should support
+both **textual** information and **visual** information. Audio and video
+information is also usseful but is outside the scope of this PEP.
+
+The following sections will point out some of the benefits and
+limitations of sharing each type of information.
 
 Text
 ----
 
-Traditional.
+Text based communication, such as mailing lists, has been the bulk of
+information shared in the past as well as currently.
 
 Visual
 ------
 
-Importance has increased markedly due to the modern editors, JavaScript, and tools such as Jupyter notebooks.
+The importance of communicating visual information has increased markedly
+due to the modern editors, JavaScript, and tools such as Jupyter notebooks.
+Communication mediums should have the ability to archive, link out to
+persistant storage, or inline visual information.
 
 Audio and Video
 ---------------
+
+While audio and video are not typically used to communicate information about
+Python core development, it's a possibility that workgroups or affinity groups
+may choose to use webinars or group chats. This PEP flags the potential future
+use but defers any recommendations and workflows related to audio and video
+to future PEPs.
 
 Types of Communication
 ======================
@@ -108,20 +151,35 @@ Types of Communication
 Announcements
 -------------
 
+Where should announcements be made?
+
 Decisions
 ~~~~~~~~~
+
+Where should decisions be communicated? PEPs
 
 Informational
 ~~~~~~~~~~~~~
 
+Where should event, meeting, and requests for comments be communicated?
+
 Discussion
 ----------
+
+- Where should discussions take place?
+- Should different communication mediums be used for different types of discussion?
+- Brief q and a; working collaboration on a specific task or project; brainstorming ideas
 
 Detailed Visualizations of Current Communications Options
 =========================================================
 
+These visualization and mappings should identify what is currently in use and potential
+suggestions for the future.
+
 Usage Metrics for Current Communications Options
 ================================================
+
+Discourse (discuss.python.org) `Site statistics <https://discuss.python.org/about>`_
 
 Summary
 =======
