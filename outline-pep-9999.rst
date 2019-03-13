@@ -49,7 +49,9 @@ tool:
 
 - Python users
 - Third party library or package maintainer
+    - example: core maintainer on another busy project, only wishes to have information on a particular topic instead of a firehose of information
 - CPython contributor
+    - example: someone completely new to the project, how do they become invested over time
 - CPython core developer
 
 Historical Evolution of Python Communication Mediums
