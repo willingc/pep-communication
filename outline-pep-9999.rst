@@ -20,14 +20,18 @@ What this PEP Does Not Cover
 What the PEP Does Cover
 =======================
 
-- Current communication mediums both formally adopted ones and trial efforts
+- Principles about change
 - User personas
 - Historical evolution of Python Communications
-- Current Communication Mediums
-- Detailed look at different Communication Mediums
+- Current Communication Mediums (both formally adopted ones and trials)
+- Modes of Communication - a detailed look including pros and limitations
 - Information Types (Text, Visual, Audio / Video)
-- 
-
+- Communication purposes
+- Summary
+- Recommended Next Steps
+- Resources
+- Acknowledgements
+- References
 
 Principles about Change
 =======================
@@ -73,16 +77,15 @@ communication mediums (ordered from oldest to most recent usage):
 Currently Used Communication Mediums
 ====================================
 
-- DevGuide
-- PEPs
 - Mailing List History
 - IRC History
 - Zulip History
 - Discourse History
-- Personal blogs/posts
 - bugs.python.org
 - python.org
-
+- DevGuide
+- Documentation
+- PEPs
 
 Modes of Communication - Pros and Limitations
 =============================================
@@ -98,7 +101,6 @@ Limitations
 IRC
 ---
 
-
 bugs.python.org
 ---------------
 
@@ -113,10 +115,31 @@ Zulip
 
 GitHub
 ------
-
+PRs and issues (possibly in future)
 
 python.org
 ----------
+
+devguide
+--------
+
+documentation
+-------------
+
+PEPs
+----
+
+
+Detailed Visualizations of Current Communications Options
+---------------------------------------------------------
+
+These visualization and mappings should identify what is currently in use and potential
+suggestions for the future.
+
+Usage Metrics for Current Communications Options
+------------------------------------------------
+
+Discourse (discuss.python.org) `Site statistics <https://discuss.python.org/about>`_
 
 Information Types
 =================
@@ -151,7 +174,7 @@ may choose to use webinars or group chats. This PEP flags the potential future
 use but defers any recommendations and workflows related to audio and video
 to future PEPs.
 
-Types of Communication
+Communication Purposes
 ======================
 
 Announcements
@@ -176,17 +199,6 @@ Discussion
 - Should different communication mediums be used for different types of discussion?
 - Brief q and a; working collaboration on a specific task or project; brainstorming ideas
 
-Detailed Visualizations of Current Communications Options
-=========================================================
-
-These visualization and mappings should identify what is currently in use and potential
-suggestions for the future.
-
-Usage Metrics for Current Communications Options
-================================================
-
-Discourse (discuss.python.org) `Site statistics <https://discuss.python.org/about>`_
-
 Summary
 =======
 
@@ -196,11 +208,8 @@ Recommended Next Steps
 Resources
 =========
 
-
-
 Acknowledgements
 ================
-
 
 References
 ==========
@@ -214,7 +223,6 @@ Copyright
 This document has been placed in the public domain.
 
 
-
 ..
    Local Variables:
    mode: indented-text
