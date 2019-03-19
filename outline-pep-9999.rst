@@ -186,6 +186,8 @@ Communication Purposes
 
 `Illustration of one way and two way communication mediums <https://github.com/willingc/pep-communication/blob/master/info-flow.pdf>`_
 
+`Illustration of two way communication mediums <https://github.com/willingc/pep-communication/blob/master/two-way-communication.pdf>`_
+
 Announcements
 -------------
 
