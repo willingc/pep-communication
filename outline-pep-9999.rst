@@ -111,6 +111,24 @@ Discourse
 
 - Can mirror Mailing Lists as read-only `Example Ruby Talk mailing list on Discourse <https://rubytalk.org/>`_ 
   *This is a read-only mirror of the Ruby-Talk mailing list. You can participate in the discussions by subscribing and posting to the mailing list.*
+- Very rich andgranular moderation capabilities. This includes the possibility for users to flag a post
+  (violation of the CoC, off-topic, spam, inapropiate...) for a moderator to review, with the possibility
+  for the moderator to act in many different ways. Multiple moderators are allowed with different levels
+  of permissions.
+- Low entry bar: multiple ways of logging in including social integrations (GitHub, Google, Facebook,...),
+  single sign-on with custom provider, invitation links, discourse accounts...
+- Editing: as any modern communication platform, allows editing of posts. Post eddits are clearly called out
+  and readers can look at previous revisions to clear up possible confusions, while it allows the user to add
+  some clarifications to the original message or to fix some typos.
+- Granular tracking controls: users can select different ways to be notified of activity in each topic, as oposed
+  to a subscribed/unsubscribed model.
+- Similar topic suggestions when creating a new message, that allows to prevent repetition when users want to create
+  new posts or messages.
+- Syntax highlighting, markdown editing, code snippets, embedable images.
+- Integrated search functionality across all messages and topics in the instance.
+- Ability to quote multiple users and part of different messages in a simple and graphical way.
+- Possibility to restructure topics, allowing to move messages across when they are off-topic.
+- Active development to replace `common mailing list features <https://meta.discourse.org/t/moss-roadmap-mailing-lists/36432>`_.
   
 Limitations
 ^^^^^^^^^^^
@@ -118,6 +136,22 @@ Limitations
 
 Zulip
 -----
+Zulip has been used as a substitute to IRC, providing users with a real-time communication channels that
+complement the other communication mediums. Real time communication can be very important to solve some
+concrete problems or to iterate together along with other users of the platform on the same problem.
+
+- Multiple ways of using Zulip: Web interface, Android App, IPhone App...etc
+- Stream/Thread model, suitable for many ongoing conversations. This eliminates the need of mentioning
+  someone for every reply.
+- Offers integrations that allows the usage of bots and automatic systems.
+- Draft messages (save messages to be sent later).
+- Markdown support: allows to format links, images and tables.
+- Syntax highlighting with embedable code snippets.
+
+Limitations
+^^^^^^^^^^^
+- There has been multiple reports of some bugs that impact user experience when using Zulio from the phone Apps.
+- The UI can be a bit counterintuitive at first, specially on the phone apps.
 
 
 GitHub
