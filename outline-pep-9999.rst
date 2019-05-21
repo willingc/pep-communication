@@ -288,7 +288,8 @@ Mailing Lists
 -------------
 
 Limitations
-^^^^^^^^^^^
+~~~~~~~~~~~
+
 - subtle bias towards a "long-term investment" persona: when joining a mailing
   list, it's very difficult to join a discussion already-in-progress. The only
   people who get the privilege of replying to a post are the people who
