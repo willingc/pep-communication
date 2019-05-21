@@ -207,10 +207,18 @@ Summary
 =======
 
 As we move toward Python 2 retirement and issue tracking workflow upgrades,
-it makes sense to prefer mailing lists in many cases. We also recognize the
-benefits of more collaborative tools such as Discourse and Zulip which may be
-used for discussions. Announcements must be made in mailing lists or GitHub
-repos; though, announcments can be mirrored in Discourse and Zulip if desired.
+effective communication will be crucial. It makes sense to prefer mailing lists
+for announcements in many cases. Announcements must be made in mailing lists
+or GitHub repos; though, announcements can be mirrored in Discourse and Zulip
+if desired.
+
+For discussions, greater flexibility to allow collaborative tools,
+such as Discourse and Zulip, offers benefits beyond text-based mailing lists.
+As a courtesy, a developer should post an informational mail message on
+python-dev indicating that important discussion on a specific topic (PEP, PR,
+issue, etc.) is occuring on Discourse or Zulip. The recommendation would be
+to follow each mode of communication and checking them as frequently as
+needed for a particular topic.
 
 Resources
 =========
