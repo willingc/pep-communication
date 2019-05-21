@@ -23,7 +23,7 @@ What the PEP Does Cover
 
 - Guiding principles about `change`_
 - User `personas`_
-- `History <history>`_
+- `History`_
 - `Current communication channels (formally adopted and trials) <current>`_
 - `Information Types (Text, Visual, Audio / Video) <infotypes>`_
 - Communication purposes
@@ -68,8 +68,6 @@ tool:
   invested in personalized workflows for managing mail and communications
 
 This PEP aims to take into account all of these personas.
-
-.. _history:
 
 History
 =======

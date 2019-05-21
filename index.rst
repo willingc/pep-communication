@@ -10,7 +10,7 @@ Welcome to PEP Drafts's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    outline-pep-9999.rst
+   outline-pep-9999.rst
 
 
 Indices and tables
