@@ -36,7 +36,7 @@ Mailing Lists
 .. _Freenode: http://freenode.net/
 
 Additional Discussion Channels
--------------------------
+------------------------------
 
 - https://bugs.python.org: issue tracker
 - `Discourse <https://discuss.python.org>`_: discuss development and dev community
