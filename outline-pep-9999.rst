@@ -11,6 +11,8 @@ Post-History:
 Abstract
 ========
 
+*TODO*
+
 What this PEP Does Not Cover
 ============================
 
@@ -106,8 +108,8 @@ The following channels are currently used:
 
 Information flow may be one-way (informative) or two-way (collaborative).
 
-- Information flow diagram: `info-flow.pdf <info-flow.pdf>`_
-- Two-way collaborative communication diagram: `two-way-communication.pdf <two-way-communication.pdf>`_
+- Information flow diagram: `info-flow.pdf <https://github.com/willingc/pep-communication/blob/master/info-flow.pdf>`_
+- Two-way collaborative communication diagram: `two-way-communication.pdf <https://github.com/willingc/pep-communication/blob/master/two-way-communication.pdf>`_
 
 These visualization and mappings should identify what is currently in use and
 potential suggestions for the future.

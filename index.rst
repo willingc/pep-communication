@@ -7,7 +7,7 @@ Welcome to PEP Drafts's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    outline-pep-9999.rst
