@@ -14,30 +14,35 @@ Abstract
 What this PEP Does Not Cover
 ============================
 
-- Communications beyond CPython core development (language and processes)
-- Communication mediums not maintained by CPython core devs or the PSF
+- Communications resources outside of the scope of CPython core development
+- Third-party communication mediums not maintained by CPython core devs or
+  the PSF
 
 What the PEP Does Cover
 =======================
 
-- Principles about change
-- User personas
-- Historical evolution of Python Communications
-- Current Communication Mediums (both formally adopted ones and trials)
-- Modes of Communication - a detailed look including pros and limitations
-- Information Types (Text, Visual, Audio / Video)
+- Guiding principles about `change`_
+- User `personas`_
+- `History <history>`_
+- `Current communication channels (formally adopted and trials) <current>`_
+- `Information Types (Text, Visual, Audio / Video) <infotypes>`_
 - Communication purposes
 - Summary
-- Recommended Next Steps
+
 - Resources
+- `Appendix 1: List of Communication Channels <app1>`_
+- `Appendix 2: Benefits and limitations <app2>`_
 - Acknowledgements
 - References
 
-Principles about Change
-=======================
+.. _change:
 
-- Change is a reality. Change is neither completely good or bad. Change
-  is driven by the current practices in software development and the
+Guiding Principles about Change
+===============================
+
+- Change is a **reality**.
+- Change is neither completely good or bad.
+- Change is driven by the current practices in software development and the
   community of CPython developers.
 - Each person should expect some change to their existing workflow.
 - While changes may require some learning of new tools or methods,
@@ -45,21 +50,29 @@ Principles about Change
   burdensome as we are volunteers.
 - Changes should clarify existing processes or practices.
 
-Personas for Communication
-==========================
+.. personas:
+
+User Personas
+=============
 
 The following user personas identify the typical uses of communication
 tool:
 
-- Python users
-- Third party library or package maintainer
-    - example: core maintainer on another busy project, only wishes to have information on a particular topic instead of a firehose of information
-- CPython contributor
-    - example: someone completely new to the project, how do they become invested over time
-- CPython core developer
+- **Python users**: news about the project and reference information
+- **Third party library or package maintainer**: core maintainer on another
+  busy project, only wishes to have information on a particular topic instead
+  of a firehose of information
+- **CPython contributor**: someone completely new to the project, how do they
+  become invested over time
+- **CPython core developer**: time efficiency, keep up to date on changes,
+  invested in personalized workflows for managing mail and communications
 
-Historical Evolution of Python Communication Mediums
-====================================================
+This PEP aims to take into account all of these personas.
+
+.. _history:
+
+History
+=======
 
 This list summarizes the history of Python core development
 communication mediums (ordered from oldest to most recent usage):
@@ -73,9 +86,14 @@ communication mediums (ordered from oldest to most recent usage):
 - GitHub PR Discussion
 - Zulip
 - Discourse (discuss.python.org)
+- Steering Council repository
 
-Currently Used Communication Mediums
-====================================
+.. _current:
+
+Current Communication Channels
+==============================
+
+The following channels are currently used:
 
 - Mailing List History
 - IRC History
@@ -86,9 +104,8 @@ Currently Used Communication Mediums
 - DevGuide
 - Documentation
 - PEPs
+- Steering Council repository
 
-Modes of Communication - Pros and Limitations
-=============================================
 
 Mailing Lists
 -------------
@@ -109,7 +126,7 @@ bugs.python.org
 Discourse
 ---------
 
-- Can mirror Mailing Lists as read-only `Example Ruby Talk mailing list on Discourse <https://rubytalk.org/>`_ 
+- Can mirror Mailing Lists as read-only `Example Ruby Talk mailing list on Discourse <https://rubytalk.org/>`_
   *This is a read-only mirror of the Ruby-Talk mailing list. You can participate in the discussions by subscribing and posting to the mailing list.*
 - Very rich andgranular moderation capabilities. This includes the possibility for users to flag a post
   (violation of the CoC, off-topic, spam, inapropiate...) for a moderator to review, with the possibility
@@ -129,7 +146,7 @@ Discourse
 - Ability to quote multiple users and part of different messages in a simple and graphical way.
 - Possibility to restructure topics, allowing to move messages across when they are off-topic.
 - Active development to replace `common mailing list features <https://meta.discourse.org/t/moss-roadmap-mailing-lists/36432>`_.
-  
+
 Limitations
 ^^^^^^^^^^^
 - UI can be overwhelming to some.
@@ -173,14 +190,16 @@ PEPs
 
 Detailed Visualizations of Current Communications Options
 ---------------------------------------------------------
+=======
+Information flow may be one-way (informative) or two-way (collaborative).
 
-These visualization and mappings should identify what is currently in use and potential
-suggestions for the future.
+- Information flow diagram: info-flow.pdf
+- Two-way collaborative communication diagram: two-way-communication.pdf
 
-Usage Metrics for Current Communications Options
-------------------------------------------------
+These visualization and mappings should identify what is currently in use and
+potential suggestions for the future.
 
-Discourse (discuss.python.org) `Site statistics <https://discuss.python.org/about>`_
+.. _infotypes:
 
 Information Types
 =================
@@ -218,9 +237,8 @@ to future PEPs.
 Communication Purposes
 ======================
 
-`Illustration of one way and two way communication mediums <https://github.com/willingc/pep-communication/blob/master/info-flow.pdf>`_
-
-`Illustration of two way communication mediums <https://github.com/willingc/pep-communication/blob/master/two-way-communication.pdf>`_
+The purposes of communication fall in two broad categories: announcements and
+discussion.
 
 Announcements
 -------------
@@ -241,14 +259,45 @@ Discussion
 ----------
 
 - Where should discussions take place?
-- Should different communication mediums be used for different types of discussion?
-- Brief q and a; working collaboration on a specific task or project; brainstorming ideas
+- Should different communication mediums be used for different types of
+  discussion?
+- Brief q and a; working collaboration on a specific task or project;
+  brainstorming ideas
+
+Recommendations
+===============
+
+The following channels are the expected places for various types of
+communications:
+
+- Announcements
+    - Steering Council: Steering Council GitHub Repo and periodically posted
+      community updates (python-dev, Discourse, Zulip?, PSF Board)
+    - PEP pronouncements: PEP GitHub Repo, python-announcements
+    - New core developers: python-committers
+
+- Discussions
+    - Issue specific: bugs.python.org / GitHub issues
+    - Core developer (committers): Recommendations for commit rights and
+      discussions where only committers are impacted
+    - General: python-dev (current development), python-ideas (future ideas),
+      Discourse (current development especially if visual information sharing
+      is helpful), and Zulip
+    - PEP discussions: python-dev, Discourse, and Zulip
+    - Workgroups: Identify preferred channel and document in devguide
+
+- Future
+    - A communications workgroup may be helpful to support workflows and
+      project goals and vision.
 
 Summary
 =======
 
-Recommended Next Steps
-======================
+As we move toward Python 2 retirement and issue tracking workflow upgrades,
+it makes sense to prefer mailing lists in many cases. We also recognize the
+benefits of more collaborative tools such as Discourse and Zulip which may be
+used for discussions. Announcements must be made in mailing lists or GitHub
+repos; though, announcments can be mirrored in Discourse and Zulip if desired.
 
 Resources
 =========
@@ -259,8 +308,106 @@ Acknowledgements
 References
 ==========
 
+.. _app1:
+
+Appendix 1: List of Communication Channels
+==========================================
+
+Many of these channels are discussed in the Python devguide.
+
+GitHub Repos
+------------
+
+- CPython
+- PEPs
+- Steering Council
+
+Mailing Lists
+-------------
+
+- https://mail.python.org and https://mail.python.org/mailman3/lists/: complete list of Python mailing lists
+- python-committers_: core developers
+- python-dev_: discussions about Python's development | `Search <https://www.mail-archive.com/python-dev@python.org/>`_
+- python-ideas_: ideas about new functionality.
+- python-list_ or python-help_ or `tutor`_: technical support questions
+- Python-checkins_: email for every commit to Python
+- new-bugs-announce_.
+- python-bugs-list_.
+- `Core-Workflow <https://mail.python.org/mm3/mailman3/lists/core-workflow.python.org/>`_
+- `Mail Archive <https://www.mail-archive.com/python-dev@python.org/>`_: another source to find mail archives
+- Search via Google `site:mail.python.org the_search_term`
+
+.. _new-bugs-announce: https://mail.python.org/mailman/listinfo/new-bugs-announce
+.. _python-bugs-list: https://mail.python.org/mailman/listinfo/python-bugs-list
+.. _python-checkins: https://mail.python.org/mailman/listinfo/python-checkins
+.. _python-committers: https://mail.python.org/mailman/listinfo/python-committers
+.. _python-dev: https://mail.python.org/mailman/listinfo/python-dev
+.. _python-help: https://mail.python.org/mailman/listinfo/python-help
+.. _python-ideas: https://mail.python.org/mailman/listinfo/python-ideas
+.. _python-list: https://mail.python.org/mailman/listinfo/python-list
+.. _tutor: https://mail.python.org/mailman/listinfo/tutor
+.. _StackOverflow: https://stackoverflow.com/
+.. _Freenode: http://freenode.net/
+
+Additional Discussion Channels
+------------------------------
+
+- https://bugs.python.org: issue tracker
+- `Discourse <https://discuss.python.org>`_: discuss development and dev community
+- `zulipchat <https://python.zulipchat.com>`_: discuss the development of Python only.
+- IRC: ``#python-dev`` channel on ``irc.freenode.net``
+- Blogs: http://planetpython.org/
+
+.. _app2:
+
+Appendix 2: Benefits and Limitations
+====================================
+
+Mailing Lists
+-------------
+
+Limitations
+^^^^^^^^^^^
+- subtle bias towards a "long-term investment" persona: when joining a mailing
+  list, it's very difficult to join a discussion already-in-progress. The only
+  people who get the privilege of replying to a post are the people who
+  subscribed before the post was made.
+- firehose of information can overwhelm new contributors and potentially
+  discourage them away from the project
+
+IRC
+---
+
+bugs.python.org
+---------------
 
 
+Discourse
+---------
+
+Usage statistics: Discourse (discuss.python.org)
+`Site statistics <https://discuss.python.org/about>`_
+
+
+Zulip
+-----
+
+
+GitHub
+------
+PRs and issues (future-TBD)
+
+python.org
+----------
+
+devguide
+--------
+
+documentation
+-------------
+
+PEPs
+----
 
 Copyright
 =========
