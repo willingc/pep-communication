@@ -50,7 +50,7 @@ Guiding Principles about Change
   burdensome as we are volunteers.
 - Changes should clarify existing processes or practices.
 
-.. personas:
+.. _personas:
 
 User Personas
 =============
