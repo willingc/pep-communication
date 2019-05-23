@@ -225,6 +225,8 @@ needed for a particular topic.
 Resources
 =========
 
+`Harvard Business Review tips on communicating when an impasse is reached <https://hbr.org/2019/05/when-youve-reached-an-impasse-in-your-meeting>`_
+
 Acknowledgements
 ================
 
